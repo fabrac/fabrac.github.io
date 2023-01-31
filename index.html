@@ -4,31 +4,29 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, et les rendre immortels.">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="preload" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" as="style" onload="this.rel='stylesheet'">
+	<link rel="stylesheet" href="./assets/style.css" >
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 	<meta charset="UTF-8">
-	<meta itemprop="name" content="Nina Carducci, photographe" />
-	<meta itemprop="image" content="https://fabrac.github.io/assets/images/nina.jpg" />
     <title>Nina Carducci</title>
 	<link rel="icon" type="image/x-icon" href="./assets/images/nina.ico">
 	<meta name="twitter:card" content="summary">
 	<meta property="og:site_name" content="Nina Carducci - Photographe">
-	<meta property="og:title" content="Nina Carducci - Photographe"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://fabrac.github.io/"/>
-	<meta property="og:image" content="https://fabrac.github.io/assets/images/nina.jpg"/>
+	<meta property="og:title" content="Nina Carducci - Photographe">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://fabrac.github.io/">
+	<meta property="og:image" content="https://fabrac.github.io/assets/images/nina.jpg">
 	<meta property="og:image:type" content="image/jpg">
 	<meta property="og:image:width" content="250">
 	<meta property="og:image:height" content="250">
-	<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, et les rendre immortels."/>
-	<meta keywords="Photographie Concert Entreprise Mariage Portrait Bordeaux Shooting Photo Album Retouche">
+	<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, et les rendre immortels.">
+	<meta name="keywords" content="Photographie Concert Entreprise Mariage Portrait Bordeaux Shooting Photo Album Retouche">
 </head>
 <body>
 <header class="top-header">
-	<h3 class="name">Nina Carducci</h3>
+	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about" title="lien vers à propos">À propos</a></li>
@@ -81,14 +79,14 @@
 			src="./assets/images/nina.webp" alt="nina carducci">
 		</div>
 		<div id="about-me">
-			<h3 class="about-me__title">A propos de moi</h3>
+			<h2 class="about-me__title">A propos de moi</h2>
 			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, et les rendre immortels.</h3>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</section>
 	<section id="gallery">
-		<h3 class="title">Portfolio</h3>
+		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img loading="lazy" 
@@ -96,8 +94,7 @@
 				data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp" alt="concert aaron paul">
 				<img loading="lazy" 
 					width="440" height="440"
-					sizes="((min-width: 0px) and (max-width: 800px)) 800px,
-					(min-width: 800px) 800px" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="entreprise ali morshedlou">
+					data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="entreprise ali morshedlou">
 				<img loading="lazy" 
 					width="440" height="440"
 					data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="entreprise jason goodman">
@@ -124,7 +121,7 @@
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+					<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -169,7 +166,7 @@
 	<section class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+				<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
@@ -198,8 +195,48 @@
 	</div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" async integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="./assets/maugallery.js"></script>
 <script src="./assets/scripts.js"></script>
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "ProfessionalService",
+		"image": [
+		  "https://fabrac.github.io/assets/images/nina.jpg"
+		 ],
+		"name": "Nina Carducci",
+		"address": {
+		  "@type": "PostalAddress",
+		  "streetAddress": "68 avenue Alsace-Lorraine",
+		  "addressLocality": "Bordeaux",
+		  "addressRegion": "Nouvelle-Aquitaine",
+		  "postalCode": "33200 ",
+		  "addressCountry": "FR"
+		},
+		"geo": {
+		  "@type": "GeoCoordinates",
+		  "latitude": 50.266667,
+		  "longitude": 1.666667
+		},
+		"priceRange": "50€-350€-400€",
+		"url": "https://www.fabrac.fr",
+		"telephone": "+33556677889",
+		"openingHoursSpecification": [
+		  {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+			  "Monday",
+			  "Tuesday",
+			  "Wednesday",
+			  "Thursday",
+			  "Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		  }
+		]
+	  }
+	</script>
 </body>
 </html>
